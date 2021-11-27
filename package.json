@@ -1,0 +1,32 @@
+{
+  "name": "gwion",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm app.js",
+    "dev": "nodemon  -r esm app.js"
+  },
+  "keywords": [],
+  "author": "Arkaraj",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkaraj/Gwion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arkaraj/Gwion/issues"
+  },
+  "homepage": "https://github.com/Arkaraj/Gwion#readme",
+  "description": "",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "node-cron": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "*",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0"
+  }
+}
